@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+  <title>Marks Calculator</title>
+</head>
+<body>
+  
+  
+  <div class="modal" id="myModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">IX Marks</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Enter the <b>Third Phase</b> marks <b>out of hundered</b> of class IX marksheet.</p>
+        <b>Example...</b>
+        <img style="width:90vw; margin:auto" src="example.jpg" alt="Loading image..." />
+        <img style="width:70vw; display:block; margin:auto; border: 1px solid red;" src="example2.jpg" alt="Loading image..." />
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">Subject</span>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-0" value="IX Marks" disabled>
+    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="project-0" value="X Project" disabled>
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">Bengali</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-1">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-1">
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">English</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-2">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-2">
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">Mathematics</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-3">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-3">
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">Physical Science</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-4">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-4">
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">Life Science</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-5">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-5">
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">History</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-6">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-6">
+  </div>
+  <div class="container-sm input-group mb-3 my-3">
+    <span class="input-group-text">Geography</span>
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="input-7">
+    <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" value="10" id="project-7">
+  </div>
+  <div class="d-grid gap-2 col-6 mx-auto">
+    <button id="calcButton" class="btn btn-dark" onclick="conlog()">Calculate</button>
+  </div>
+
+
+  <div id="tableCont" class="container-lg mb-3 my-3">
+
+  </div>
+
+  <!--<div id="columnchart_material" style="width: 800px; height: 500px;"></div>-->
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+  <!-- bootstrap JavaScript -->
+  <!--<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>-->
+</body>
+</html>
