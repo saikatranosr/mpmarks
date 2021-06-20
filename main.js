@@ -58,7 +58,7 @@
     return "AA"
   }}
   
-  let subjects = ["Bengali", "English", "Mathematics", "Physical Science", "Life Science", "Geography", "History"]
+  let subjects = ["Bengali", "English", "Mathematics", "Physical Science", "Life Science", "History", "Geography"]
   
 
   function conlog(){
