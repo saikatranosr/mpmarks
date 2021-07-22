@@ -121,9 +121,15 @@
           <td>${percent(total()[0], total()[1])}</td>
           <td>${grade(total()[0], total()[1])}</td>
         </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Total</td>
+          <td>${percent(total()[0], total()[1])}*7</td>
+          <td></td>
+        </tr>
       </tbody>
     </table>`
-    console.log(total())
+ //   console.log(total())
     document.getElementById('tableCont').innerHTML = table
   return table
  
