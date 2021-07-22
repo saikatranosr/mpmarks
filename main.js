@@ -124,7 +124,7 @@
         <tr>
           <th scope="row">8</th>
           <td>Total</td>
-          <td>${percent(total()[0], total()[1])}*7</td>
+          <td>${(percent(total()[0], total()[1]))*7}</td>
           <td></td>
         </tr>
       </tbody>
